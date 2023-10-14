@@ -1,3 +1,11 @@
+## Backround
+
+![background](background.png)
+
+## Decay
+
+![decay](decay.png)
+
 ## Method 1
 
 $t_{1/2,1} = 35.2s ± 3.2s$
