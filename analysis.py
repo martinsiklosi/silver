@@ -3,10 +3,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 import lst
 
-_, n_backround = lst.load("background.lst")
+_, n_backround = lst.load("data/background.lst")
 n_backround_avg = np.average(n_backround)
 
-t, n = lst.load("measurement.lst")
+t, n = lst.load("data/measurement.lst")
 t = 5 * t
 n = n - n_backround_avg
 
